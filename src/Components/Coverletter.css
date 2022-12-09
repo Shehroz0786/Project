@@ -1,0 +1,49 @@
+.radio{
+    display: flex;
+}
+.date{
+    display: flex;
+}
+h3{
+    float: left;
+    margin-bottom: 5%;
+}
+.col1{
+    margin-left: 5%;
+}
+.col2{
+    margin-left: 5%;
+    height: 60%;
+    text-align: left;
+}
+.col1 h4{
+    text-align: left;
+}
+.check{
+    text-align: left;
+}
+button{
+    margin-top: 2%;
+    margin-right: 5%;
+}
+.colbtn{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+@media screen and (max-width: 480px) {
+    .col1{
+        margin-left: 0%;
+    }
+    .col2{
+        margin-left: 0%;
+        text-align: left;
+    }
+    .Sdate{
+       width: 50%;
+    }
+    .Edate{
+        width: 50%;
+    }
+
+}

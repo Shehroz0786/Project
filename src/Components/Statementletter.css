@@ -1,0 +1,61 @@
+.statement {
+    background-color: rgb(0, 110, 174);
+}
+.statement h5{
+ width: 100%;
+ margin-top: 5%;
+}
+.heading{
+    margin-top: 4%;
+}
+.heading1{
+    margin-left: 12%;
+}
+.icon{
+    height:40%;
+    width:20%;
+    background: orange;
+    border-radius: 50%;
+    margin-top: 15%;
+    margin-left: 20%;
+    cursor: pointer;
+}
+.icon0{
+    font-size:40px;
+    color: white;
+}
+.icon1{
+    height:40%;
+    width:20%;
+    background: orange;
+    border-radius: 50%;
+    margin-top: 15%;
+    cursor: pointer;
+}
+.icon2{
+    font-size:40px;
+    color: white;
+}
+.content {
+color: white;
+width: 60%;
+margin-top: 15%;
+margin-left: 5%;
+text-align: left;
+cursor: pointer;
+margin-bottom: 10%;
+}
+
+.MD{
+    display: flex;
+    height: 100%;
+}
+@media screen and (max-width: 480px) {
+   .icon{
+    margin-left: 0%;
+   } 
+.heading1{
+    margin-left: 0%;
+}
+  
+}

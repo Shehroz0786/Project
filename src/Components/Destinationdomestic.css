@@ -1,0 +1,41 @@
+.col{
+    display: flex;
+    margin-top: 5%;
+}
+.img img{
+    width: 80%;
+    height: 100%;
+    cursor: pointer;
+}
+.hd  {
+    font-size: larger;
+    margin-right: 10%;
+    margin-top: 5%;
+    cursor: pointer;
+    text-align: left;
+    
+}
+.hd h6{
+    margin-top: 8%;
+}
+.row3{
+    margin-left: 8%;
+    margin-right: 5%;
+}
+.hd1{
+    font-size: larger;
+    margin-top: 5%;
+    cursor: pointer;
+    text-align: left;
+}
+@media screen and (max-width: 480px) {
+    .HD2 p{
+       float: left;
+       margin-left: 18%;
+    }
+    .col{
+        margin: 5%;
+        margin-left: 0%;
+    }
+   
+}

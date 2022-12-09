@@ -1,0 +1,35 @@
+.date{
+    display: flex;
+}
+h3{
+    float: left;
+    margin-bottom: 5%;
+}
+.col1{
+    margin-left: 5%;
+}
+.col2{
+    margin-left: 5%;
+    text-align: left;
+}
+button{
+    margin-right: 5%;
+}
+.colbtn{
+   width: 25%;
+  float: right;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+@media screen and (max-width: 480px) {
+    .col1{
+        margin-left: 0%;
+    }
+    .col2{
+        margin-left: 0%;
+        text-align: left;
+    }
+    .colbtn{
+        width: 100%; 
+     }
+}

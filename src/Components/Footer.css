@@ -1,0 +1,107 @@
+.rowf{
+    margin-top: 10%;
+ 
+}
+.img1 img{
+width: 30%;
+height: 50%;
+float: left;
+margin-top: 10%;
+margin-left: 20%;
+cursor: pointer;
+}
+
+.CC{
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+    width: 50%;
+    height: 100%;
+  
+}
+.nd{
+    margin-left: 18%;
+    margin-top: 5%;
+}
+.num{
+    display: flex;
+    margin-left: 18%;
+}
+.num p{
+    cursor: pointer;
+}
+.icn{
+    margin-left: 18%;
+    margin-top:  3%;
+    margin-bottom: 10%;
+}
+.CC1{
+    display: block;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 35%;
+    height: 100%;
+
+}
+.btn h6{
+  font-size: large;
+  color: white;
+  padding: 5%;
+float: right;
+}
+.h5{
+    cursor: pointer;
+}
+
+.phnicon {
+    color: steelblue;
+    margin-right: 2%;
+  
+}
+.whticon{
+    color: green;
+    margin-right: 2%;
+ 
+}
+.lsticon h2{
+    color: steelblue;
+    cursor: pointer;
+}
+.faicon{
+    cursor: pointer;
+    color: steelblue;
+}
+.bsicon{
+    cursor: pointer;
+    color: steelblue;
+}
+.bs1icon{
+    cursor: pointer;
+    color: steelblue;
+}
+
+@media screen and (max-width: 480px) {
+    .CC1{
+        display: block;
+        margin-left: 0%;
+     
+        width: 100%;
+        /* height: 100%; */
+    
+    }
+    .CC{
+         width: 100%;
+         /* height: 100%; */
+     }
+     .num {
+        display: flex;
+        flex-direction: column;
+        margin-left: 18%;
+    }
+    .pclass{
+        display: flex;
+        margin-left: -20%;
+     
+    }
+  }

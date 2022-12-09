@@ -1,0 +1,8 @@
+.hrow{
+  font-size: large;
+  color: white;
+  justify-content: center;
+}
+.hrow p{
+  margin: 1%;
+}

@@ -1,0 +1,67 @@
+.HD h3{
+    float: left;
+    margin-left: 8%;
+}
+.HD1 h3{
+margin-left: 20%;
+}
+.row0{
+    margin-top: 5%;
+}
+.row1{
+    margin-left: 8%;
+    margin-right: 5%;
+}
+.HD2 p{
+float: right;
+font-weight: bold;
+cursor: pointer;
+}
+.HD3 p{
+font-weight: bold;
+cursor: pointer;
+margin-right: 20%;
+}
+.HD2 p:hover{
+    text-decoration: underline;
+  
+}
+.HD3 p:hover{
+    text-decoration: underline;
+}
+.img img{
+    width: 80%;
+    height: 100%;
+    cursor: pointer;
+}
+.col{
+    display: flex;
+}
+.hd  {
+    font-size: larger;
+    margin-right: 10%;
+    margin-top: 5%;
+    cursor: pointer;
+    text-align: left;
+    
+}
+.hd h6{
+    margin-top: 8%;
+}
+.hd1{
+    font-size: larger;
+    margin-top: 5%;
+    cursor: pointer;
+    text-align: left;
+}
+@media screen and (max-width: 480px) {
+    .HD2 p{
+       float: left;
+       margin-left: 18%;
+    }
+    .col{
+        margin: 5%;
+        margin-left: 0%;
+    }
+   
+}
