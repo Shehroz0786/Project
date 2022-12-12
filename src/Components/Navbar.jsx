@@ -4,6 +4,7 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Link } from 'react-router-dom';
 import pic from "../Images/logo.png"
 import './Navbar.css';
 
@@ -32,22 +33,32 @@ function NavScrollExample() {
             navbarScroll
           >
             <div className=" nav ms-4">
+              <Link to='/Home'>
             <Nav.Link href="#Home">Home</Nav.Link>
+            </Link>
             <div className="uti ms-4">
             <NavDropdown title="Utility" id="navbarScrollingDropdown">
+              <Link to='/BankStatementletter'>
               <NavDropdown.Item href="#Bank Statement Letter ">Bank Statement Letter</NavDropdown.Item>
+              </Link>
+              <Link to='/CoverStatementletter'>
               <NavDropdown.Item href="# Cover Letter">
               Cover Letter
               </NavDropdown.Item>
+              </Link>
             </NavDropdown>
             </div>
             </div>
           </Nav>
+         
           <Form className="d-flex" >
+          <Link  to='/Loginform'>
             <div className="btn me-5">
             <Button >LOGIN</Button>
             </div>
+            </Link>
           </Form>
+          
         </Navbar.Collapse>
       </Container>
     </Navbar>

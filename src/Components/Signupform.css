@@ -1,0 +1,26 @@
+.Logcol{
+    border-radius: 8%;
+   margin-left: 28%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.Logcol h2{
+    color: steelblue;
+    margin-top: 5%;
+}
+.ch{
+    color: steelblue;
+    text-align: left;
+}
+
+@media screen and (max-width: 480px) {
+    .Logcol{
+        margin-left: 5%;
+      width: 90%;
+    margin-top: 20%;
+   
+    }
+    .Ccol{
+        height: 100vh;
+    }
+}

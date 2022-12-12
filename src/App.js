@@ -1,36 +1,34 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './Components/Navbar';
 import './App.css';
-import Header from './Components/Header';
-import Searchsection from './Components/Searchsection';
-import Statementletter from './Components/Statementletter';
-import Destinationinternational from './Components/Destinationinternational';
 import Destinationdomestic from './Components/Destinationdomestic';
-import Footer from './Components/Footer';
-import Bankletter from './Components/Bankletter';
-import Coverletter from './Components/Coverletter';
 import Loginform from './Components/Loginform';
-
+import Signupform from './Components/Signupform';
+import {Route, Routes} from 'react-router-dom';
+import Home from'./Components/Home';
+import BankStatementletter from './Components/BankStatementletter';
+import CoverStatementletter from './Components/CoverStatementletter';
 
 function App() {
   return (
     <div className="App">
+      <Routes>
+        <Route path='/Home' element={<Home/>}/>
+        <Route path='/BankStatementletter' element={<BankStatementletter/>}/>
+        <Route path='/CoverStatementletter' element={<CoverStatementletter/>}/>
+        <Route path='/Loginform' element={<Loginform/>}/>
+        <Route path='/Signupform' element={<Signupform/>}/>
+      </Routes>
    {/* <Navbar/>
    <Header/>
    <Searchsection/>
-   <Statementletter/> */}
-   {/* <Destinationdomestic/> */}
-   {/* <Destinationinternational/> */}
-   {/* <Navbar/>
-   <Header/>
+   <Statementletter/>
+   <Destinationdomestic/>
+   <Destinationinternational/>
     <Bankletter/> 
-    <Footer/> */}
-      {/* <Navbar/>
-   <Header/>
     <Coverletter/>
-   <Footer/> */}
-   {/* <Footer/> */}
+    <Footer/>
    <Loginform/>
+   <Signupform/> */}
     </div>
   );
 }

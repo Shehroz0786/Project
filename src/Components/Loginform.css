@@ -1,3 +1,48 @@
-.Log{
-    border-radius: 5%;
+.Logcol{
+    border-radius: 8%;
+   margin-left: 28%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.Logcol h2{
+    color: steelblue;
+    margin-top: 5%;
+}
+.Pf p{
+  color: steelblue;
+  cursor: pointer;
+  text-align: right;
+}
+.Pf p:hover{
+    text-decoration: underline;
+}
+.whticon{
+    cursor: pointer;
+}
+.gooicon{
+    cursor: pointer;
+}
+.icon001 h6{
+    color: steelblue;
+    margin-top: 8%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+.sign h5{
+cursor: pointer;
+color: steelblue;
+margin-top: 10%;
+margin-right: 5%;
+margin-bottom: 5%;
+}
+.sign h5:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width: 480px) {
+    .Logcol{
+        margin-left: 5%;
+      width: 90%;
+      margin-bottom:8%;
+      margin-top: 8%;
+    }
 }
