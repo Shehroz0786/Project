@@ -8,10 +8,13 @@ import {FaFacebookF} from "react-icons/fa";
 import {BsTwitter} from "react-icons/bs";
 import {FcGoogle} from "react-icons/fc";
 import { Link } from 'react-router-dom';
+import Navbar from './Navbar';
 import './Loginform.css';
 
 function ContainerFluidExample() {
   return (
+    <>
+    <Navbar/>
     <Container fluid className='Ccol bg-primary'>
       <Row>
         <Col className='Logcol bg-light' lg={5}>
@@ -45,6 +48,7 @@ function ContainerFluidExample() {
         </Col>
       </Row>
     </Container>
+    </>
   );
 }
 

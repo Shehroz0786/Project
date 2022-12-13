@@ -3,6 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './Destinationinternational.css';
 import pic from "../Images/pic1.jpg";
+import { Link } from 'react-router-dom';
 
 function Destination() {
     return (
@@ -15,10 +16,14 @@ function Destination() {
                     <h3>OUR BEST FLIGHTS</h3>
                 </Col>
                 <Col lg={4} xs={12} className='HD2'>
+                    <Link to='/Domestic'>
                     <p>Domestic Flights</p>
+                    </Link>
                 </Col>
                 <Col lg={3} xs={12} className='HD3'>
+                    <Link to='/International'>
                     <p>International Flights</p>
+                    </Link>
                 </Col>
             </Row>
 

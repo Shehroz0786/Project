@@ -4,10 +4,14 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
+import { Link } from 'react-router-dom';
+import Navbar from './Navbar';
 import './Signupform.css';
 
 function ContainerFluidExample() {
   return (
+    <>
+    <Navbar/>
     <Container fluid className='Ccol bg-primary'>
       <Row>
         <Col className='Logcol bg-light' lg={5}>
@@ -38,10 +42,17 @@ function ContainerFluidExample() {
       <Button variant="primary mb-5" size='lg' type="submit">
         Sign Up
       </Button>
+      <div className="login">
+        <h6>Already On Account</h6>
+        <Link to='/Loginform'>
+        <h5>Login</h5>
+        </Link>
+      </div>
     </Form>
         </Col>
       </Row>
     </Container>
+    </>
   );
 }
 
