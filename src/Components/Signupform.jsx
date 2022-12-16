@@ -5,16 +5,14 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import { Link } from 'react-router-dom';
-import Navbar from './Navbar';
 import './Signupform.css';
 
 function ContainerFluidExample() {
   return (
     <>
-    <Navbar/>
-    <Container fluid className='Ccol bg-primary'>
+    <Container fluid className='Ccol bg-secondary'>
       <Row>
-        <Col className='Logcol bg-light' lg={5}>
+        <Col className='Sigcol bg-light' lg={5}>
         <Form>
           <h2>SIGN UP</h2>
         <FloatingLabel

@@ -6,7 +6,7 @@ import pic from "../Images/pic1.jpg";
 import { Link } from 'react-router-dom';
 function Destination() {
     return (
-        <Container fluid>
+        <Container fluid className=' doccon bg-light'>
                <Row>
                 <Col className='HD'><h3>OUR TOP DESTINATIONS</h3></Col>
             </Row>

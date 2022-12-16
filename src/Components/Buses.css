@@ -1,0 +1,4 @@
+.newRow{
+    display: flex;
+    justify-content: space-between;
+}
